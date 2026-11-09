@@ -3,7 +3,7 @@ import re
 import threading
 import time
 import requests
-import feedparser
+
 from flask import Flask, request, jsonify
 
 # --- Безопасный импорт Telethon ---
